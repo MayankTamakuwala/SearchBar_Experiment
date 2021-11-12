@@ -10,6 +10,7 @@ export default class App extends Component {
     this.state = {
       geoLocation: {},
       geoError: null,
+      searchResults: [],
     };
   }
 
